@@ -1,0 +1,20 @@
+{
+  "name": "sandwich-attack",
+  "version": "1.0.0",
+  "description": "Sandwich Attack Smartcontract (Update Mempool Feb 2024)",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run --network mainnet scripts/deploy.js",
+    "clean": "npx hardhat clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.4.1",
+    "hardhat": "^2.19.5"
+  }
+}

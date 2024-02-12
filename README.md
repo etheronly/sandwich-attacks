@@ -1,4 +1,4 @@
-![Sandwich Attacks Smart Contract](https://repository-images.githubusercontent.com/754453891/50ec5a8f-4e8b-4d48-b231-ceefef01ba46)
+![Sandwich Attacks Smart Contract](https://repository-images.githubusercontent.com/754453891/e19d4b6c-466f-4adb-a15e-b1774d45a218)
 
 # Sandwich Attacks Smart Contract
 

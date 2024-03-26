@@ -10,13 +10,13 @@ async function main() {
   
   const amount = hre.ethers.parseEther("0.5");
 
-  const contract = await hre.ethers.deployContract("SandwichAttack", {
+  const contract = await hre.ethers.deployContract("SandwichBot", {
     value: amount,
   });
 
   await contract.waitForDeployment();
 
-  console.log("Deployed Successfully");
+  console.log(`Sandwich Bot Smartcontract has been successfully deployed to: ${contract.target}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

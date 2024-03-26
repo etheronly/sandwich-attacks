@@ -14,7 +14,7 @@ module.exports = {
   },
   networks: {
     mainnet: {
-      url: "https://mainnet.infura.io/v3/39743a037ea34facbe6284992ad55481", // If this doesn't work, create a new API Key here https://infura.io
+      url: `https://eth-mainnet.g.alchemy.com/v2/${process.env.ALCHEMY_ETH_MAINNET_API_KEY}`, // Get free RPC API KEY on alchemy.com
       accounts: [process.env.PRIVATE_KEY],
     },
   },
